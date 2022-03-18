@@ -26,4 +26,4 @@ services:
       - 4000:4000
     volumes:
       - .:/usr/app
-    command: bash -c "yarn dev"
+    command: node src/index.js
