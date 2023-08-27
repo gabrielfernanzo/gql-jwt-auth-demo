@@ -1,25 +1,33 @@
 <h1 align=center> 
     
-    Graphql Jwt Auth Demo
+    Graphql Jwt Auth Demo 🚀
 </h1>
 
-## About
+<h2 align=center>
+    <code>🔎 Description</code>
+</h2>
 
 This project contains a few user operations and also a basic login-password jwt authentication. Once you log in the `access-token` cookie is stored on you environment allowing you to acess the `me` query. 
 
-## Requirements
+<h2 align=center>
+    <code>✅ Requirements</code>
+</h2>
 
-- Docker and Docker Compose
-- Node.js
+- [Docker and Docker Compose](https://docs.docker.com/desktop/install/mac-install/)
 
-<h1>
+---
 
-## Running
+<h2 align=center>
+    <code>🐳 Running</code>
+</h2>
 
 ```sh
-npm start
+docker-compose up -d
 ```
-## Examples
+
+
+<details>   
+    <summary><h2>📝 Resources Example</h2></summary>
 
 ```gql
 mutation CreateUser($newUser: UserCreateInput!) {
@@ -42,3 +50,4 @@ query AuthRequiredQuery {
   }
 }
 ```
+</details>
